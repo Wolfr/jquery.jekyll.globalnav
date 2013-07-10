@@ -1,0 +1,101 @@
+/* line 3, ../scss/_globalnav.scss */
+html.global-nav-active {
+  margin-left: 200px;
+}
+/* line 5, ../scss/_globalnav.scss */
+html.global-nav-active #global-nav, html.global-nav-active .page-states-menu {
+  display: block;
+}
+
+/* line 10, ../scss/_globalnav.scss */
+#global-nav, .page-states-menu {
+  display: none;
+  -webkit-font-smoothing: anti-aliased;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
+  z-index: 3001;
+  left: 0;
+  font-size: 12px;
+  border-left: 3px solid black;
+  width: 197px;
+  background: #111;
+}
+/* line 23, ../scss/_globalnav.scss */
+#global-nav p:first-child, .page-states-menu p:first-child {
+  font-size: 12px;
+  line-height: 1.4;
+}
+/* line 27, ../scss/_globalnav.scss */
+#global-nav h4, .page-states-menu h4 {
+  color: #FFF;
+  margin-bottom: 4px;
+  font-size: 11px;
+}
+/* line 32, ../scss/_globalnav.scss */
+#global-nav .inner, .page-states-menu .inner {
+  color: #FFF;
+  padding: 20px 12px;
+}
+/* line 35, ../scss/_globalnav.scss */
+#global-nav .inner strong, .page-states-menu .inner strong {
+  color: #FFF;
+}
+/* line 39, ../scss/_globalnav.scss */
+#global-nav ul, .page-states-menu ul {
+  margin: 0 0 10px;
+  list-style: none;
+  padding: 0;
+}
+/* line 44, ../scss/_globalnav.scss */
+#global-nav ol li a, .page-states-menu ol li a {
+  color: #FFF;
+}
+/* line 47, ../scss/_globalnav.scss */
+#global-nav ul > li, .page-states-menu ul > li {
+  margin-left: 0;
+}
+/* line 49, ../scss/_globalnav.scss */
+#global-nav ul > li > a, .page-states-menu ul > li > a {
+  padding: 1px 3px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  margin: 0 0 1px;
+}
+/* line 55, ../scss/_globalnav.scss */
+#global-nav ul > li li a, .page-states-menu ul > li li a {
+  background: none;
+  font-weight: 400;
+}
+/* line 59, ../scss/_globalnav.scss */
+#global-nav ul > li a, .page-states-menu ul > li a {
+  display: block;
+  padding: 1px 6px;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: none;
+  /* Bootstrap clash */
+}
+/* line 67, ../scss/_globalnav.scss */
+#global-nav ul > li a:hover, .page-states-menu ul > li a:hover, #global-nav ul > li a:active, .page-states-menu ul > li a:active, #global-nav ul > li a:focus, .page-states-menu ul > li a:focus {
+  background: rgba(255, 255, 255, 0.25);
+}
+/* line 71, ../scss/_globalnav.scss */
+#global-nav ul > li li, .page-states-menu ul > li li {
+  margin-left: 10px;
+}
+
+/* line 77, ../scss/_globalnav.scss */
+.page-states-menu {
+  background: #1e1e1e;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 3002;
+}
+
+/* line 3, ../scss/screen.scss */
+.hide {
+  display: none;
+}
