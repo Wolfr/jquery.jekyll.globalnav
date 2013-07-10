@@ -8,7 +8,7 @@ We are using **jQuery**, **SCSS** (optional) and **Jekyll**. You should be famil
 Demo
 ----
 
-See [http://wolfslittlestore.be/jquery.jekyll.globalnav](demo).
+See [demo](http://wolfslittlestore.be/jquery.jekyll.globalnav).
 
 How to use
 ----------
