@@ -13,12 +13,14 @@ See [demo](http://wolfslittlestore.be/jquery.jekyll.globalnav).
 How to use
 ----------
 
-Run these commands and look at the generated site:
+Look at the demo site in _site/index.html.
+
+Hit ctrl+M to trigger the global navigation.
+
+To edit the site:
 
     jekyll serve -w
     compass watch
-
-Hit ctrl+M to trigger the global navigation.
 
 Arboretum
 ---------
