@@ -4,12 +4,13 @@
 
     <!-- List your pages here -->
     <ul class="unstyled">
-      <li><a href="index.html">Index</a></li>
+      <li><a href="index.html">Index (main app screen)</a></li>
+      <li><a href="thanks.html">Thanks page (after form submit)</a></li>
     </ul>
 
     <!-- List your page states here -->
-    {% if page.pagestates == "example" %}
-      {% include pagestates/example.html %}
+    {% if page.pagestates == "index" %}
+      {% include pagestates/index.html %}
     {% endif %}
 
   </div>

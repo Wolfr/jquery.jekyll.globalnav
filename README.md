@@ -8,6 +8,8 @@ We are using **jQuery**, **SCSS** (optional) and **Jekyll**. You should be famil
 Demo
 ----
 
+Watch a [screencast](http://www.youtube.com/watch?v=frm2AGR8-ro).
+
 See [demo](http://wolfslittlestore.be/jquery.jekyll.globalnav).
 
 How to use

@@ -1,0 +1,12 @@
+<h1>My simple web app</h1>
+
+{% if page.error %}
+  <p class="error">Hey! You should enter something.</p>
+{% endif %}
+
+<p>Enter your name to be added to the list:</p>
+
+<form action="thanks.html">
+  <input type="text">
+  <input type="submit">
+</form>
