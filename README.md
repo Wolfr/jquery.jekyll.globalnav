@@ -43,7 +43,6 @@ Arboretum
     │   ├── jquery.cookie.js                 Cookies are used to save the visibility of the menu
     │   ├── jquery.globalnav.js              Javascript that manages the toggling of the menu and cookies
     │   ├── jquery.js                        jQuery
-    │   └── jwerty.js                        jwerty for the shortcuts
     ├── page-2.html                          Example pages
     ├── page-3.html                          Example pages
     └── scss
@@ -59,10 +58,3 @@ In an HTML prototype, a single page often has 2 states. For example, a form migh
 2. In this file, add the states of your pages.
 3. Add the full page content as a new include in `_includes`
 4. Manage state with YAML front matter in the files in the root ./ by adding a YAML entry for example: `state: state2`
-
-Possible improvements
----------------------
-
-PR if you want to make an improvement!
-
-* Don't include jwerty and use a keycode instead

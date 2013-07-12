@@ -25,9 +25,14 @@ $(document).ready(function() {
     $('html').removeClass('global-nav-active');
   }
   
-  // The jwerty jquery plugin is required
-  jwerty.key('ctrl+m', function () {
-    toggleGlobalNav();
-  });
+  // When ctrl+m is pressed toggle the nav
+  map = {};
+  onkeydown=onkeyup=function(e){
+    e=e||event//to deal with IE
+    map[e.keyCode]=e.type=='keydown'?true:false
+    if(map[17]&&map[77]){//CTRL+M
+      toggleGlobalNav();
+    }
+  }
 
 });
