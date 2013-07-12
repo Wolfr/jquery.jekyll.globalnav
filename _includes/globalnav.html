@@ -2,12 +2,12 @@
   <div class="inner">
     <p><strong>HTML prototype navigation</strong> - use CTRL+M to toggle this menu</p>
 
+    <!-- List your pages here -->
     <ul class="unstyled">
-      <li><a href="index.html">Application main screen</a></li>
-      <li><a href="page-2.html">Page 2</a></li>
-      <li><a href="page-3.html">Page 3</a></li>
+      <li><a href="index.html">Index</a></li>
     </ul>
 
+    <!-- List your page states here -->
     {% if page.pagestates == "example" %}
       {% include pagestates/example.html %}
     {% endif %}
