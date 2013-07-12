@@ -3,7 +3,7 @@
   Provides a way to show a global navigation in an HTML prototype
 */
 
-$(document).ready(function() {
+$(function() {
 
   function toggleGlobalNav() {
     $('#global-nav, .page-states-menu').toggle();
