@@ -1,6 +1,7 @@
 /*
   jquery.globalnav
   Provides a way to show a global navigation in an HTML prototype
+  Depencencies: jquery.cookie.js and jquery (from 1.x)
 */
 
 $(function() {
